@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter.App", "Converter.App\Converter.App.csproj", "{33DEFBA1-DB18-4B7D-8C70-4B9D3824C465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter.Lib", "Converter.Lib\Converter.Lib.csproj", "{A35D62B0-0E1C-4D6F-967E-9C8A1EFFF26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter.Web", "Converter.Web\Converter.Web.csproj", "{A0A2EDFE-1DCD-43AC-BB11-7036925DCEC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33DEFBA1-DB18-4B7D-8C70-4B9D3824C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DEFBA1-DB18-4B7D-8C70-4B9D3824C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DEFBA1-DB18-4B7D-8C70-4B9D3824C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DEFBA1-DB18-4B7D-8C70-4B9D3824C465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35D62B0-0E1C-4D6F-967E-9C8A1EFFF26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35D62B0-0E1C-4D6F-967E-9C8A1EFFF26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35D62B0-0E1C-4D6F-967E-9C8A1EFFF26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35D62B0-0E1C-4D6F-967E-9C8A1EFFF26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A2EDFE-1DCD-43AC-BB11-7036925DCEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A2EDFE-1DCD-43AC-BB11-7036925DCEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A2EDFE-1DCD-43AC-BB11-7036925DCEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A2EDFE-1DCD-43AC-BB11-7036925DCEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
