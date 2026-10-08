@@ -1,0 +1,531 @@
+[
+  {
+    "Name": "ROSSMANN, spol. s r.o.",
+    "ID": "61246093",
+    "Orders": [
+      {
+        "OrderName": "RO0001",
+        "Items": [
+          {
+            "Period": "01.01.2017",
+            "Amount": 7
+          },
+          {
+            "Period": "01.02.2017",
+            "Amount": 2
+          },
+          {
+            "Period": "01.03.2017",
+            "Amount": 14
+          },
+          {
+            "Period": "01.04.2017",
+            "Amount": 15
+          },
+          {
+            "Period": "01.05.2017",
+            "Amount": 5
+          },
+          {
+            "Period": "01.06.2017",
+            "Amount": 16
+          },
+          {
+            "Period": "01.07.2017",
+            "Amount": 21
+          },
+          {
+            "Period": "01.08.2017",
+            "Amount": 22
+          },
+          {
+            "Period": "01.09.2017",
+            "Amount": 17
+          },
+          {
+            "Period": "01.10.2017",
+            "Amount": 6
+          },
+          {
+            "Period": "01.11.2017",
+            "Amount": 11
+          },
+          {
+            "Period": "01.12.2017",
+            "Amount": 16
+          },
+          {
+            "Period": "01.01.2018",
+            "Amount": 19
+          },
+          {
+            "Period": "01.02.2018",
+            "Amount": 25
+          },
+          {
+            "Period": "01.03.2018",
+            "Amount": 12
+          },
+          {
+            "Period": "01.04.2018",
+            "Amount": 17
+          },
+          {
+            "Period": "01.05.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.06.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.07.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.08.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.09.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.10.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.11.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.12.2018",
+            "Amount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Alfmeier CZ s.r.o.",
+    "ID": "26167492",
+    "Orders": [
+      {
+        "OrderName": "AL0001",
+        "Items": [
+          {
+            "Period": "01.01.2017",
+            "Amount": 23
+          },
+          {
+            "Period": "01.02.2017",
+            "Amount": 1
+          },
+          {
+            "Period": "01.03.2017",
+            "Amount": 12
+          },
+          {
+            "Period": "01.04.2017",
+            "Amount": 13
+          },
+          {
+            "Period": "01.05.2017",
+            "Amount": 13
+          },
+          {
+            "Period": "01.06.2017",
+            "Amount": 20
+          },
+          {
+            "Period": "01.07.2017",
+            "Amount": 12
+          },
+          {
+            "Period": "01.08.2017",
+            "Amount": 10
+          },
+          {
+            "Period": "01.09.2017",
+            "Amount": 22
+          },
+          {
+            "Period": "01.10.2017",
+            "Amount": 9
+          },
+          {
+            "Period": "01.11.2017",
+            "Amount": 6
+          },
+          {
+            "Period": "01.12.2017",
+            "Amount": 13
+          },
+          {
+            "Period": "01.01.2018",
+            "Amount": 6
+          },
+          {
+            "Period": "01.02.2018",
+            "Amount": 1
+          },
+          {
+            "Period": "01.03.2018",
+            "Amount": 1
+          },
+          {
+            "Period": "01.04.2018",
+            "Amount": 2
+          },
+          {
+            "Period": "01.05.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.06.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.07.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.08.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.09.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.10.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.11.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.12.2018",
+            "Amount": 0
+          }
+        ]
+      },
+      {
+        "OrderName": "AL0002",
+        "Items": [
+          {
+            "Period": "01.01.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.02.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.03.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.04.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.05.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.06.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.07.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.08.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.09.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.10.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.11.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.12.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.01.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.02.2018",
+            "Amount": 16
+          },
+          {
+            "Period": "01.03.2018",
+            "Amount": 12
+          },
+          {
+            "Period": "01.04.2018",
+            "Amount": 3
+          },
+          {
+            "Period": "01.05.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.06.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.07.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.08.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.09.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.10.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.11.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.12.2018",
+            "Amount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "GUMOTEX, a.s.",
+    "ID": "16355407",
+    "Orders": [
+      {
+        "OrderName": "GU0001",
+        "Items": [
+          {
+            "Period": "01.01.2017",
+            "Amount": 10
+          },
+          {
+            "Period": "01.02.2017",
+            "Amount": 12
+          },
+          {
+            "Period": "01.03.2017",
+            "Amount": 19
+          },
+          {
+            "Period": "01.04.2017",
+            "Amount": 10
+          },
+          {
+            "Period": "01.05.2017",
+            "Amount": 23
+          },
+          {
+            "Period": "01.06.2017",
+            "Amount": 22
+          },
+          {
+            "Period": "01.07.2017",
+            "Amount": 13
+          },
+          {
+            "Period": "01.08.2017",
+            "Amount": 6
+          },
+          {
+            "Period": "01.09.2017",
+            "Amount": 1
+          },
+          {
+            "Period": "01.10.2017",
+            "Amount": 25
+          },
+          {
+            "Period": "01.11.2017",
+            "Amount": 2
+          },
+          {
+            "Period": "01.12.2017",
+            "Amount": 13
+          },
+          {
+            "Period": "01.01.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.02.2018",
+            "Amount": 24
+          },
+          {
+            "Period": "01.03.2018",
+            "Amount": 22
+          },
+          {
+            "Period": "01.04.2018",
+            "Amount": 2
+          },
+          {
+            "Period": "01.05.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.06.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.07.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.08.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.09.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.10.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.11.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.12.2018",
+            "Amount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Name": "Setos spol. s r.o.",
+    "ID": "46352163",
+    "Orders": [
+      {
+        "OrderName": "SE0001",
+        "Items": [
+          {
+            "Period": "01.01.2017",
+            "Amount": 18
+          },
+          {
+            "Period": "01.02.2017",
+            "Amount": 9
+          },
+          {
+            "Period": "01.03.2017",
+            "Amount": 14
+          },
+          {
+            "Period": "01.04.2017",
+            "Amount": 21
+          },
+          {
+            "Period": "01.05.2017",
+            "Amount": 22
+          },
+          {
+            "Period": "01.06.2017",
+            "Amount": 15
+          },
+          {
+            "Period": "01.07.2017",
+            "Amount": 12
+          },
+          {
+            "Period": "01.08.2017",
+            "Amount": 19
+          },
+          {
+            "Period": "01.09.2017",
+            "Amount": 0
+          },
+          {
+            "Period": "01.10.2017",
+            "Amount": 10
+          },
+          {
+            "Period": "01.11.2017",
+            "Amount": 11
+          },
+          {
+            "Period": "01.12.2017",
+            "Amount": 25
+          },
+          {
+            "Period": "01.01.2018",
+            "Amount": 13
+          },
+          {
+            "Period": "01.02.2018",
+            "Amount": 9
+          },
+          {
+            "Period": "01.03.2018",
+            "Amount": 21
+          },
+          {
+            "Period": "01.04.2018",
+            "Amount": 1
+          },
+          {
+            "Period": "01.05.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.06.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.07.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.08.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.09.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.10.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.11.2018",
+            "Amount": 0
+          },
+          {
+            "Period": "01.12.2018",
+            "Amount": 0
+          }
+        ]
+      }
+    ]
+  }
+]
