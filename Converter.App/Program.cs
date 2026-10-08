@@ -16,8 +16,13 @@ class Program
             Console.WriteLine("There is no .xlsx file in the 'Converter.App' directory.");
             return;
         }
-        
-        string json = converter.Convert(spreadsheet);
+
+        string json;
+        using (FileStream fileStream = new FileStream(spreadsheet.FullName, FileMode.Open))
+        {
+            json = converter.Convert(fileStream);
+        }
+
         File.WriteAllText($"{directory.FullName}\\Result.json", json);
         Console.WriteLine(json);
         Console.ReadKey();

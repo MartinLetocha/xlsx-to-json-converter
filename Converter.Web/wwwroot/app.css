@@ -58,3 +58,42 @@ h1:focus {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+body {
+    background: #404040;
+}
+
+article {
+    padding: 0 !important;
+}
+
+.card {
+    background: #ffffff;
+}
+
+.main {
+    margin-left: 7.5vw;
+    width: 80vw;
+    background: #6a6a6a;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.file-form {
+    font-size: 2.2rem;
+    width: 65vw;
+    margin: 5rem 15rem 10rem 15rem;
+}
+
+.card-btn {
+    margin-top: -5rem;
+}
+
+.download-button {
+    font-size: 2.2rem;
+    margin: 4rem 10rem;
+}

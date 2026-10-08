@@ -1,7 +1,67 @@
 ﻿@page "/"
+@using Converter.Lib
+@rendermode InteractiveServer
+@inject IJSRuntime JS
 
 <PageTitle>Home</PageTitle>
+<div class="main">
+    <InputFile OnChange="LoadFiles" class="form-control file-form"/>
 
-<h1>Hello, world!</h1>
+    <div class="card card-btn">
+        <div class="card-body">
+            <button @onclick="DownloadFileFromStream" disabled="@(result == null)"
+                    class="btn btn-secondary download-button">
+                Download Result
+            </button>
+        </div>
+    </div>
+</div>
 
-Welcome to your new app.
+<script>
+    window.downloadFileFromStream = async (fileName, contentStreamReference) => {
+        const arrayBuffer = await contentStreamReference.arrayBuffer();
+        const blob = new Blob([arrayBuffer]);
+        const url = URL.createObjectURL(blob);
+        const anchorElement = document.createElement('a');
+        anchorElement.href = url;
+        anchorElement.download = fileName ?? '';
+        anchorElement.click();
+        anchorElement.remove();
+        URL.revokeObjectURL(url);
+    }
+</script>
+
+@code {
+    private string result;
+
+    private async Task LoadFiles(InputFileChangeEventArgs e)
+    {
+        using var memoryStream = new MemoryStream();
+        await e.File.OpenReadStream(e.File.Size).CopyToAsync(memoryStream);
+        memoryStream.Position = 0;
+        var converter = new XlsxToJsonConverter();
+        string json = converter.Convert(memoryStream);
+        result = json;
+        StateHasChanged();
+    }
+
+    private Stream GetFileStream()
+    {
+        var stream = new MemoryStream();
+        var writer = new StreamWriter(stream);
+        writer.Write(result);
+        writer.Flush();
+        stream.Position = 0;
+        return stream;
+    }
+
+    private async Task DownloadFileFromStream()
+    {
+        var fileStream = GetFileStream();
+        var fileName = "Result.json";
+
+        using var streamRef = new DotNetStreamReference(stream: fileStream);
+
+        await JS.InvokeVoidAsync("downloadFileFromStream", fileName, streamRef);
+    }
+}

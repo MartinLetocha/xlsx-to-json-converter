@@ -5,10 +5,10 @@ namespace Converter.Lib;
 
 public class XlsxToJsonConverter
 {
-    public string Convert(FileInfo spreadsheet)
+    public string Convert(Stream spreadsheetStream)
     {
         List<Client> clients = new List<Client>();
-        var workbook = new XLWorkbook(spreadsheet.FullName).Worksheet(1);
+        var workbook = new XLWorkbook(spreadsheetStream).Worksheet(1);
         int rowNumber = 2;
         int cellNumber = 4;
         var titleRow = workbook.Row(1);
