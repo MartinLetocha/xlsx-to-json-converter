@@ -14,6 +14,7 @@ class Program
         if (spreadsheet == null)
         {
             Console.WriteLine("There is no .xlsx file in the 'Converter.App' directory.");
+            Console.ReadKey();
             return;
         }
 

@@ -83,4 +83,4 @@ C:\Users\marti\RiderProjects\XLSX to JSON Converter\Converter.Web\obj\Debug\net9
 C:\Users\marti\RiderProjects\XLSX to JSON Converter\Converter.Web\obj\Debug\net9.0\ref\Converter.Web.dll
 C:\Users\marti\RiderProjects\XLSX to JSON Converter\Converter.Web\obj\Debug\net9.0\compressed\u2zwaphxet-3zycgm6gsr.gz
 C:\Users\marti\RiderProjects\XLSX to JSON Converter\Converter.Web\obj\Debug\net9.0\compressed\laii5y1f5o-3zycgm6gsr.gz
-C:\Users\marti\RiderProjects\XLSX to JSON Converter\Converter.Web\obj\Debug\net9.0\compressed\cvesnh9igm-53ohv5vw2t.gz
+C:\Users\marti\RiderProjects\XLSX to JSON Converter\Converter.Web\obj\Debug\net9.0\compressed\cvesnh9igm-vpsb64qxkp.gz
